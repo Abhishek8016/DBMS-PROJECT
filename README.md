@@ -65,7 +65,7 @@ Load the document collections and validation rules:
 mongosh scm_logs mongo/init.js
 ```
 
-### 4. Start the Embedding Microservice
+### 4. Start the Embedding Microservice (commands)
 ```bash
 cd embedding-service
 pip install -r requirements.txt
@@ -73,7 +73,7 @@ python seed_embeddings.py
 uvicorn main:app --reload --port 8001
 ```
 
-### 5. Start the Web Application
+### 5. Start the Web Application (commands)
 ```bash
 cd web
 npm install
